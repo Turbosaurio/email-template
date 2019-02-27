@@ -1,0 +1,6 @@
+<!-- FOOTER -->
+<mj-section>
+	<mj-column>
+	<mj-text>{{footer}}</mj-text>
+	</mj-column>
+</mj-section>

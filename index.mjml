@@ -1,0 +1,98 @@
+<mjml>
+	<mj-head>
+		<mj-style inline="inline">
+			.blue-bg{
+			}
+			.white-text{
+			}
+			.small-text div{
+				font-size: 12px !important;
+				line-height: 16px !important;
+			}
+			.body-text div{
+				font-size: 16px !important;
+				line-height: 24px !important;
+			}
+			.mid-text div{
+				font-size: 24px !important;
+				line-height: 20px !important;
+			}
+			.large-text div{
+				font-weight: 700 !important;
+				font-size: 32px !important;
+				line-height: 16px !important;
+				text-transform: uppercase !important;
+				text-align: center !important;
+			}
+			.background-text div{
+				font-size: 24px !important;
+				font-weight: 700 !important;
+				text-align: center !important;
+			}
+		</mj-style>
+	</mj-head>
+	<mj-body>
+
+		<!-- header -->
+		<mj-section>
+			<mj-column>
+				<mj-text css-class="large-text white-text">{{title}}</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- header with image-->
+		<mj-section
+			background-url="https://stadtbild-deutschland.org/wp-content/uploads/2018/10/Dresden-Elbflorenz.jpg"
+			background-size="cover"
+			background-repeat="no-repeat"
+		>
+			<mj-column width="600px">
+				<mj-text css-class="background-text">{{message0.title}}</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<!-- summary 1 -->
+		<mj-section>
+			<mj-column width="400px">
+				<mj-text css-class="body-text">{{message0.summary}}</mj-text>				
+				<mj-button
+					background-color="#243044"
+					href="/">{{message0.label}}</mj-button>
+			</mj-column>
+		</mj-section>
+
+		<!-- 2 columns -->
+		<mj-section>
+			<mj-column>
+				<mj-image width="400px" src="https://4pg6ytlewbav5wl8-zippykid.netdna-ssl.com/wp-content/uploads/2016/05/14917000C4226EB1-1110x500.jpg" />
+			</mj-column>
+			<mj-column>
+				<mj-text css-class="mid-text">{{message1.title}}</mj-text>				
+				<mj-text css-class="small-text">{{message1.summary}}</mj-text>				
+			</mj-column>
+		</mj-section>
+
+		<!-- icons -->
+		
+		<mj-section background-color="#e7e7e7">
+		  <mj-column>
+		    <mj-social>
+		      <mj-social-element name="facebook" />
+		      <mj-social-element name="instagram" />
+		      <mj-social-element name="twitter" />
+		      <mj-social-element name="snapchat" />
+		      <mj-social-element name="youtube" />
+		      <mj-social-element name="vimeo" />
+		    </mj-social>
+		  </mj-column>
+		</mj-section>
+
+
+
+		<!-- social- -->
+		<mj-section></mj-section>
+
+	</mj-body>
+</mjml>
+
+
